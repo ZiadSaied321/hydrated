@@ -5,7 +5,8 @@
   "description": "Reminds you to drink water periodically.",
   "permissions": [
     "activeTab",
-    "notifications"
+    "notifications",
+    "runtime"
   ],
   "background": {
     "service_worker": "background.js"
