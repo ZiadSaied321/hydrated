@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       let timerId;
   
       const notify = () => {
-        chrome.notifications.create('hydration-reminder', {
+        chrome.notifications.create('hydration reminder', {
           type: 'basic',
           title: 'Drink Water!',
           message: 'Time to hydrate!',
@@ -17,3 +17,5 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       };
   
       startTimer();
+    }}
+)
